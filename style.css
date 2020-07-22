@@ -69,6 +69,13 @@ a:hover {
 blockquote {
     margin:0;
     font-style: italic;
+    color:#707070;
+    font-size:18px;
+}
+
+blockquote + footer {
+    color:#707070;
+    font-size:18px;
 }
 
 .bg-center,
