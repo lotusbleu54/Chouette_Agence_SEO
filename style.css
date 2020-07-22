@@ -13,6 +13,16 @@ button {
     outline: none!important;
 }
 
+input:invalid,
+textarea:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+
+input:focus:invalid,
+textar {
+    outline: none;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -54,6 +64,11 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+blockquote {
+    margin:0;
+    font-style: italic;
 }
 
 .bg-center,
@@ -126,13 +141,15 @@ a:hover {
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
+.d-bloc a .social-name,
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
-.d-bloc p a {
+.d-bloc p a
+{
     color: rgba(255, 255, 255, .6);
 }
 
@@ -143,6 +160,7 @@ a:hover {
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
+.d-bloc a:hover .social-name,
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
@@ -359,11 +377,6 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
-}
-
-blockquote {
-    margin:0;
-    font-style: italic;
 }
 
 @media (min-width: 768px) {
@@ -681,7 +694,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -690,7 +703,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Open Sans";
 }
 
@@ -714,7 +727,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -775,15 +788,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #EC5813;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F8E0A5!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #EC5813;
     color: #FFFFFF!important;
 }
 
@@ -801,7 +814,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #EC5813!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -826,7 +839,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
