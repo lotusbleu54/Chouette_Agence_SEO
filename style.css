@@ -324,6 +324,12 @@ blockquote + footer {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    transform: scale(1);
+    transition: all 400ms;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    transform: scale(1.1);
 }
 
 .navbar-brand img {
@@ -359,6 +365,7 @@ blockquote + footer {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    text-decoration: underline;
 }
 
 .navbar-toggle {

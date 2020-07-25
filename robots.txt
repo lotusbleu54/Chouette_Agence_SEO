@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://lotusbleu54.github.io/OC_Projet4_Corrige/sitemap.xml
