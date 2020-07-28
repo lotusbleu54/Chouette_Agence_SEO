@@ -9,6 +9,18 @@
 
 <url>
   <loc>https://lotusbleu54.github.io/OC_Projet4_Corrige/</loc>
+      <image:image>
+      <image:loc>https://lotusbleu54.github.io/OC_Projet4_Corrige/img/site-web-journal-local.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://lotusbleu54.github.io/OC_Projet4_Corrige/img/site-web-mariage.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://lotusbleu54.github.io/OC_Projet4_Corrige/img/site-web-photographe.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://lotusbleu54.github.io/OC_Projet4_Corrige/img/site-web-voyageur.jpg</image:loc>
+    </image:image>
   <lastmod>2020-07-24T11:05:24+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
